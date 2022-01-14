@@ -16,7 +16,7 @@ let me = {
   lastName: 'Kapp',
   hasSibilings: true,
   shoeCount: 8,
-  favThreeFoods: ['pizza', 'cheese', 'begels']
+  favThreeFoods: ['pizza', 'cheese', 'bagels'],
 };
 
 console.log('A little about me:', me);
@@ -37,7 +37,8 @@ console.log('My full name is', fullName);
   - Console.log your last favorite food
 */
 
-
+console.log('My first favorite food is', me.favThreeFoods[0]);
+console.log('My last favorite food is', me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 /* 4. Change a property of an existing object.
   - Console.log your current shoe count.
