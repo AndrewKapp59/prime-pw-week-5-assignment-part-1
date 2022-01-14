@@ -12,7 +12,7 @@ console.log('***** Object Practice *****')
 // TODO - add properties here
 
 let me = {
-  firstName: 'Andrew',
+  firstName: 'Andrew ',
   lastName: 'Kapp',
   hasSibilings: true,
   shoeCount: 8,
@@ -28,7 +28,9 @@ console.log('A little about me:', me);
   - Console.log fullName
 */
 
+let fullName = me.firstName + me.lastName;
 
+console.log('My full name is', fullName);
 
 /* 3. Nested arrays
   - Console.log your first favorite food
